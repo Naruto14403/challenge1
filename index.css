@@ -1,0 +1,44 @@
+/*
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%) 
+ */
+body{
+    background:hsl(212, 45%, 89%);
+    display:block;
+    text-align:center;
+}
+.attribution {
+    position: relative;
+    top: 100px;
+}
+.content{
+    align-items:center;
+    background:hsl(0, 0%, 100%);
+    border-radius:20px;
+    height: fit-content;
+    margin: auto auto;
+    width: max-content;
+    padding:15px 20px 20px;
+    position: relative;
+    top:100px;
+}
+img{
+    border-radius: 20px;
+    width:350px;
+}
+.m{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 16px;
+    opacity: 0.5;
+}
+.mini{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 790;
+    font-size: 24px;
+}
+
